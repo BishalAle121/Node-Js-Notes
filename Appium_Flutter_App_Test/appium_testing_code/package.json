@@ -1,0 +1,21 @@
+{
+  "name": "appium_testing_code",
+  "version": "1.0.0", 
+  "scripts": {
+    "test": "mocha tests/integration/loginFlowTest.js",
+    "validunitlogintest": "mocha tests/unit/valid_login_test.js",
+    "invalidunitlogintest": "mocha tests/integration/invalid_login_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "chai": "^5.1.2",
+    "webdriverio": "^9.7.3"
+  },
+  "dependencies": {
+    "appium-flutter-finder": "^0.2.0"
+  }
+}
